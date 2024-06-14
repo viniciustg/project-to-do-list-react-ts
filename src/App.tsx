@@ -1,6 +1,6 @@
 import styles from './App.module.css';
 import { Header } from './components/Header';
-import { Task } from './components/Tasks';
+import { Tasks } from './components/Tasks';
 
 import './global.css';
 
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Header />
       <div className={styles.wrapper}>        
-        <Task />
+        <Tasks />
       </div>
     </div>
   )

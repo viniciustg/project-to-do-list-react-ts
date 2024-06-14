@@ -9,11 +9,7 @@ function App() {
     <div>
       <Header />
       <div className={styles.wrapper}>        
-      <main>
-        <div>
-          <Task />
-        </div>
-      </main>
+        <Task />
       </div>
     </div>
   )
